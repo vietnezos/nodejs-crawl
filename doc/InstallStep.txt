@@ -1,0 +1,37 @@
+MAC 環境
+
+1. Hombrew インストール
+
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+2. npm インストール
+
+$ brew install npm
+
+
+3. node インストール
+
+https://nodejs.org/dist/v9.8.0/node-v9.8.0.pkg
+
+
+4. chrome インストール
+
+https://dl.google.com/chrome/mac/stable/CHFA/googlechrome.dmg
+
+
+5. chrome driver インストール
+
+$ brew install chromedriver
+
+
+6. selenium-webdriver インストール
+
+$ cd ~/nodejs-crawl
+$ npm install selenium-webdriver --save
+
+
+7. 実行
+
+$ node ~/nodejs-crawl/src/main.js
+
